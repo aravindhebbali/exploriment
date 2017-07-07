@@ -1,0 +1,1 @@
+tabPanel('rbokeh', value = 'tab_rbokeh')

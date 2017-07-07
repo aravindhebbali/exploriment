@@ -1,0 +1,1 @@
+tabPanel('highcharts', value = 'tab_rbokeh')
