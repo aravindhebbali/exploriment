@@ -1,4 +1,4 @@
-tabPanel('Upload', value = 'tab_upload',
+tabPanel('CSV', value = 'tab_csv',
 
     fluidPage(
 
@@ -17,7 +17,7 @@ tabPanel('Upload', value = 'tab_upload',
 
             fluidRow(
                 column(12, align = 'center',
-                    fileInput('file', 'Data Set:',
+                    fileInput('file1', 'Data Set:',
                         accept = c('text/csv', '.csv',
                             'text/comma-separated-values,text/plain')
                     )

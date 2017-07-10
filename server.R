@@ -9,6 +9,9 @@ library(gridExtra)
 library(purrr)
 library(tidyr)
 library(tibble)
+library(readxl)
+library(readr)
+library(jsonlite)
 
 shinyServer(function(input, output, session) {
 

@@ -1,13 +1,7 @@
-tabPanel('Data', value = 'tab_data', icon = icon('database'),
-
-    navlistPanel(id = 'navlist',
-        well = FALSE,
-        widths = c(2, 10),
-
-        source('ui/ui_upload.R', local = TRUE)[[1]],
-        source('ui/ui_transform2.R', local = TRUE)[[1]],
-        source('ui/ui_screen.R', local = TRUE)[[1]],
-        source('ui/ui_view.R', local = TRUE)[[1]]
-
-    )
+navbarMenu('Data', icon = icon('database'),
+  source('ui/ui_up.R', local = TRUE)[[1]],
+  source('ui/ui_sel.R', local = TRUE)[[1]],
+  source('ui/ui_trans.R', local = TRUE)[[1]],
+  source('ui/ui_scr.R', local = TRUE)[[1]],
+  source('ui/ui_vi.R', local = TRUE)[[1]]
 )
